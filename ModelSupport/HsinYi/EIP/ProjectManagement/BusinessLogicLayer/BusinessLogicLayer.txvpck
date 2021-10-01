@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet>
+  <view uin="pe19j41hoz2dtfj_v">
+    <property name="$name" value="BusinessLogicLayer" />
+    <property name="$defaultDiagram" value="True" />
+    <property name="$metaclass" value="Package Diagram" />
+    <reference referencedUin="vbnet:e_class:src:ProjectManagement:HsinYi.EIP.ProjectManagement.BusinessLogicLayer.PMAppoint">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="vbnet:e_method:src:ProjectManagement:HsinYi.EIP.ProjectManagement.BusinessLogicLayer.PMAppoint.LoadAppoints(System.Data.DataSet)" />
+      <reference referencedUin="vbnet:e_class:src:ProjectManagement:HsinYi.EIP.ProjectManagement.BusinessLogicLayer.PMAppoint.AppointLevel" />
+      <reference referencedUin="vbnet:e_field:src:ProjectManagement:HsinYi.EIP.ProjectManagement.BusinessLogicLayer.PMAppoint._appointLevelID" />
+      <reference referencedUin="vbnet:e_field:src:ProjectManagement:HsinYi.EIP.ProjectManagement.BusinessLogicLayer.PMAppoint._appointDate" />
+      <reference referencedUin="vbnet:e_field:src:ProjectManagement:HsinYi.EIP.ProjectManagement.BusinessLogicLayer.PMAppoint._startTime" />
+      <reference referencedUin="vbnet:e_field:src:ProjectManagement:HsinYi.EIP.ProjectManagement.BusinessLogicLayer.PMAppoint._endTime" />
+      <reference referencedUin="vbnet:e_field:src:ProjectManagement:HsinYi.EIP.ProjectManagement.BusinessLogicLayer.PMAppoint._createdDate" />
+      <reference referencedUin="vbnet:e_field:src:ProjectManagement:HsinYi.EIP.ProjectManagement.BusinessLogicLayer.PMAppoint._modifiedDate" />
+      <reference referencedUin="vbnet:e_class:src:ProjectManagement:HsinYi.EIP.ProjectManagement.BusinessLogicLayer.PMAppoint.CycleType" />
+      <reference referencedUin="vbnet:e_field:src:ProjectManagement:HsinYi.EIP.ProjectManagement.BusinessLogicLayer.PMAppoint._cycleTypeID" />
+      <reference referencedUin="vbnet:e_field:src:ProjectManagement:HsinYi.EIP.ProjectManagement.BusinessLogicLayer.PMAppoint._cycleStartDate" />
+      <reference referencedUin="vbnet:e_field:src:ProjectManagement:HsinYi.EIP.ProjectManagement.BusinessLogicLayer.PMAppoint._cycleEndDate" />
+      <reference referencedUin="vbnet:e_field:src:ProjectManagement:HsinYi.EIP.ProjectManagement.BusinessLogicLayer.PMAppoint._cycleStartTime" />
+      <reference referencedUin="vbnet:e_field:src:ProjectManagement:HsinYi.EIP.ProjectManagement.BusinessLogicLayer.PMAppoint._cycleEndTime" />
+      <reference referencedUin="vbnet:e_field:src:ProjectManagement:HsinYi.EIP.ProjectManagement.BusinessLogicLayer.PMAppoint._cycleWeekDay" />
+      <reference referencedUin="vbnet:e_class:src:ProjectManagement:HsinYi.EIP.ProjectManagement.BusinessLogicLayer.PMAppoint.CycleMonthType" />
+      <reference referencedUin="vbnet:e_field:src:ProjectManagement:HsinYi.EIP.ProjectManagement.BusinessLogicLayer.PMAppoint._cycleMonthTypeID" />
+      <reference referencedUin="vbnet:e_class:src:ProjectManagement:HsinYi.EIP.ProjectManagement.BusinessLogicLayer.PMAppoint.CycleDayType" />
+      <reference referencedUin="vbnet:e_field:src:ProjectManagement:HsinYi.EIP.ProjectManagement.BusinessLogicLayer.PMAppoint._cycleDayTypeID" />
+      <reference referencedUin="vbnet:e_property:src:ProjectManagement:HsinYi.EIP.ProjectManagement.BusinessLogicLayer.PMAppoint.AppointLevelID" />
+      <reference referencedUin="vbnet:e_property:src:ProjectManagement:HsinYi.EIP.ProjectManagement.BusinessLogicLayer.PMAppoint.AppointDate" />
+      <reference referencedUin="vbnet:e_property:src:ProjectManagement:HsinYi.EIP.ProjectManagement.BusinessLogicLayer.PMAppoint.StartTime" />
+      <reference referencedUin="vbnet:e_property:src:ProjectManagement:HsinYi.EIP.ProjectManagement.BusinessLogicLayer.PMAppoint.EndTime" />
+      <reference referencedUin="vbnet:e_property:src:ProjectManagement:HsinYi.EIP.ProjectManagement.BusinessLogicLayer.PMAppoint.CreatedDate" />
+      <reference referencedUin="vbnet:e_property:src:ProjectManagement:HsinYi.EIP.ProjectManagement.BusinessLogicLayer.PMAppoint.ModifiedDate" />
+      <reference referencedUin="vbnet:e_property:src:ProjectManagement:HsinYi.EIP.ProjectManagement.BusinessLogicLayer.PMAppoint.CycleTypeID" />
+      <reference referencedUin="vbnet:e_property:src:ProjectManagement:HsinYi.EIP.ProjectManagement.BusinessLogicLayer.PMAppoint.CycleStartDate" />
+      <reference referencedUin="vbnet:e_property:src:ProjectManagement:HsinYi.EIP.ProjectManagement.BusinessLogicLayer.PMAppoint.CycleEndDate" />
+      <reference referencedUin="vbnet:e_property:src:ProjectManagement:HsinYi.EIP.ProjectManagement.BusinessLogicLayer.PMAppoint.CycleStartTime" />
+      <reference referencedUin="vbnet:e_property:src:ProjectManagement:HsinYi.EIP.ProjectManagement.BusinessLogicLayer.PMAppoint.CycleEndTime" />
+      <reference referencedUin="vbnet:e_property:src:ProjectManagement:HsinYi.EIP.ProjectManagement.BusinessLogicLayer.PMAppoint.CycleWeekDay" />
+      <reference referencedUin="vbnet:e_property:src:ProjectManagement:HsinYi.EIP.ProjectManagement.BusinessLogicLayer.PMAppoint.CycleMonthTypeID" />
+      <reference referencedUin="vbnet:e_property:src:ProjectManagement:HsinYi.EIP.ProjectManagement.BusinessLogicLayer.PMAppoint.CycleDayTypeID" />
+      <reference referencedUin="vbnet:e_method:src:ProjectManagement:HsinYi.EIP.ProjectManagement.BusinessLogicLayer.PMAppoint.New()" />
+      <reference referencedUin="vbnet:e_method:src:ProjectManagement:HsinYi.EIP.ProjectManagement.BusinessLogicLayer.PMAppoint.New(System.Int32)" />
+      <reference referencedUin="vbnet:e_method:src:ProjectManagement:HsinYi.EIP.ProjectManagement.BusinessLogicLayer.PMAppoint.New(System.Int32,System.Int32)" />
+      <reference referencedUin="vbnet:e_method:src:ProjectManagement:HsinYi.EIP.ProjectManagement.BusinessLogicLayer.PMAppoint.GetAppointments()" />
+      <reference referencedUin="vbnet:e_method:src:ProjectManagement:HsinYi.EIP.ProjectManagement.BusinessLogicLayer.PMAppoint.GetAppointments(System.Int32)" />
+      <reference referencedUin="vbnet:e_method:src:ProjectManagement:HsinYi.EIP.ProjectManagement.BusinessLogicLayer.PMAppoint.GetAppointments(System.Int32,System.DateTime)" />
+      <reference referencedUin="vbnet:e_method:src:ProjectManagement:HsinYi.EIP.ProjectManagement.BusinessLogicLayer.PMAppoint.Load()" />
+      <reference referencedUin="vbnet:e_method:src:ProjectManagement:HsinYi.EIP.ProjectManagement.BusinessLogicLayer.PMAppoint.LoadCycle()" />
+      <reference referencedUin="vbnet:e_method:src:ProjectManagement:HsinYi.EIP.ProjectManagement.BusinessLogicLayer.PMAppoint.Remove(System.Int32)" />
+      <reference referencedUin="vbnet:e_method:src:ProjectManagement:HsinYi.EIP.ProjectManagement.BusinessLogicLayer.PMAppoint.RemoveCycle(System.Int32)" />
+      <reference referencedUin="vbnet:e_method:src:ProjectManagement:HsinYi.EIP.ProjectManagement.BusinessLogicLayer.PMAppoint.Save()" />
+      <reference referencedUin="vbnet:e_method:src:ProjectManagement:HsinYi.EIP.ProjectManagement.BusinessLogicLayer.PMAppoint.Insert()" />
+      <reference referencedUin="vbnet:e_method:src:ProjectManagement:HsinYi.EIP.ProjectManagement.BusinessLogicLayer.PMAppoint.Update()" />
+      <reference referencedUin="vbnet:e_method:src:ProjectManagement:HsinYi.EIP.ProjectManagement.BusinessLogicLayer.PMAppoint.GetDays()" />
+      <reference referencedUin="vbnet:e_method:src:ProjectManagement:HsinYi.EIP.ProjectManagement.BusinessLogicLayer.PMAppoint.GetWeek(System.DateTime)" />
+      <reference referencedUin="vbnet:e_method:src:ProjectManagement:HsinYi.EIP.ProjectManagement.BusinessLogicLayer.PMAppoint.FillCorrectStartEndDates(System.DateTime,ref@System.DateTime,ref@System.DateTime)" />
+      <reference referencedUin="vbnet:e_method:src:ProjectManagement:HsinYi.EIP.ProjectManagement.BusinessLogicLayer.PMAppoint.getWeekName(System.DayOfWeek)" />
+      <reference referencedUin="vbnet:e_field:src:ProjectManagement:HsinYi.EIP.ProjectManagement.BusinessLogicLayer.PMAppoint._appointID" />
+      <reference referencedUin="vbnet:e_field:src:ProjectManagement:HsinYi.EIP.ProjectManagement.BusinessLogicLayer.PMAppoint._appointTypeID" />
+      <reference referencedUin="vbnet:e_field:src:ProjectManagement:HsinYi.EIP.ProjectManagement.BusinessLogicLayer.PMAppoint._cycleID" />
+      <reference referencedUin="vbnet:e_field:src:ProjectManagement:HsinYi.EIP.ProjectManagement.BusinessLogicLayer.PMAppoint._projectID" />
+      <reference referencedUin="vbnet:e_field:src:ProjectManagement:HsinYi.EIP.ProjectManagement.BusinessLogicLayer.PMAppoint._subject" />
+      <reference referencedUin="vbnet:e_field:src:ProjectManagement:HsinYi.EIP.ProjectManagement.BusinessLogicLayer.PMAppoint._location" />
+      <reference referencedUin="vbnet:e_field:src:ProjectManagement:HsinYi.EIP.ProjectManagement.BusinessLogicLayer.PMAppoint._reminderTime" />
+      <reference referencedUin="vbnet:e_field:src:ProjectManagement:HsinYi.EIP.ProjectManagement.BusinessLogicLayer.PMAppoint._finishedTimes" />
+      <reference referencedUin="vbnet:e_field:src:ProjectManagement:HsinYi.EIP.ProjectManagement.BusinessLogicLayer.PMAppoint._createdUserID" />
+      <reference referencedUin="vbnet:e_field:src:ProjectManagement:HsinYi.EIP.ProjectManagement.BusinessLogicLayer.PMAppoint._modifiedUserID" />
+      <reference referencedUin="vbnet:e_field:src:ProjectManagement:HsinYi.EIP.ProjectManagement.BusinessLogicLayer.PMAppoint._description" />
+      <reference referencedUin="vbnet:e_field:src:ProjectManagement:HsinYi.EIP.ProjectManagement.BusinessLogicLayer.PMAppoint._isDel" />
+      <reference referencedUin="vbnet:e_field:src:ProjectManagement:HsinYi.EIP.ProjectManagement.BusinessLogicLayer.PMAppoint._cycleSubject" />
+      <reference referencedUin="vbnet:e_field:src:ProjectManagement:HsinYi.EIP.ProjectManagement.BusinessLogicLayer.PMAppoint._cycleMonthInterval" />
+      <reference referencedUin="vbnet:e_field:src:ProjectManagement:HsinYi.EIP.ProjectManagement.BusinessLogicLayer.PMAppoint._cycleMonthDay" />
+      <reference referencedUin="vbnet:e_field:src:ProjectManagement:HsinYi.EIP.ProjectManagement.BusinessLogicLayer.PMAppoint._cycleWeekInterval" />
+      <reference referencedUin="vbnet:e_field:src:ProjectManagement:HsinYi.EIP.ProjectManagement.BusinessLogicLayer.PMAppoint._cycleWeekDays" />
+      <reference referencedUin="vbnet:e_property:src:ProjectManagement:HsinYi.EIP.ProjectManagement.BusinessLogicLayer.PMAppoint.isCycle" />
+      <reference referencedUin="vbnet:e_property:src:ProjectManagement:HsinYi.EIP.ProjectManagement.BusinessLogicLayer.PMAppoint.AppointID" />
+      <reference referencedUin="vbnet:e_property:src:ProjectManagement:HsinYi.EIP.ProjectManagement.BusinessLogicLayer.PMAppoint._appointTypeName" />
+      <reference referencedUin="vbnet:e_property:src:ProjectManagement:HsinYi.EIP.ProjectManagement.BusinessLogicLayer.PMAppoint.AppointTypeID" />
+      <reference referencedUin="vbnet:e_property:src:ProjectManagement:HsinYi.EIP.ProjectManagement.BusinessLogicLayer.PMAppoint.CycleID" />
+      <reference referencedUin="vbnet:e_property:src:ProjectManagement:HsinYi.EIP.ProjectManagement.BusinessLogicLayer.PMAppoint.ProjectID" />
+      <reference referencedUin="vbnet:e_property:src:ProjectManagement:HsinYi.EIP.ProjectManagement.BusinessLogicLayer.PMAppoint.Description" />
+      <reference referencedUin="vbnet:e_property:src:ProjectManagement:HsinYi.EIP.ProjectManagement.BusinessLogicLayer.PMAppoint.Subject" />
+      <reference referencedUin="vbnet:e_property:src:ProjectManagement:HsinYi.EIP.ProjectManagement.BusinessLogicLayer.PMAppoint.Location" />
+      <reference referencedUin="vbnet:e_property:src:ProjectManagement:HsinYi.EIP.ProjectManagement.BusinessLogicLayer.PMAppoint.ReminderTime" />
+      <reference referencedUin="vbnet:e_property:src:ProjectManagement:HsinYi.EIP.ProjectManagement.BusinessLogicLayer.PMAppoint.FinishedTimes" />
+      <reference referencedUin="vbnet:e_property:src:ProjectManagement:HsinYi.EIP.ProjectManagement.BusinessLogicLayer.PMAppoint.CreatedUserID" />
+      <reference referencedUin="vbnet:e_property:src:ProjectManagement:HsinYi.EIP.ProjectManagement.BusinessLogicLayer.PMAppoint.ModifiedUserID" />
+      <reference referencedUin="vbnet:e_property:src:ProjectManagement:HsinYi.EIP.ProjectManagement.BusinessLogicLayer.PMAppoint.isDel" />
+      <reference referencedUin="vbnet:e_property:src:ProjectManagement:HsinYi.EIP.ProjectManagement.BusinessLogicLayer.PMAppoint.CycleSubject" />
+      <reference referencedUin="vbnet:e_property:src:ProjectManagement:HsinYi.EIP.ProjectManagement.BusinessLogicLayer.PMAppoint.CycleMonthInterval" />
+      <reference referencedUin="vbnet:e_property:src:ProjectManagement:HsinYi.EIP.ProjectManagement.BusinessLogicLayer.PMAppoint.CycleMonthDay" />
+      <reference referencedUin="vbnet:e_property:src:ProjectManagement:HsinYi.EIP.ProjectManagement.BusinessLogicLayer.PMAppoint.CycleWeekInterval" />
+      <reference referencedUin="vbnet:e_property:src:ProjectManagement:HsinYi.EIP.ProjectManagement.BusinessLogicLayer.PMAppoint.CycleWeekDays" />
+      <reference referencedUin="vbnet:e_class:src:ProjectManagement:HsinYi.EIP.ProjectManagement.BusinessLogicLayer.PMAppoint.TimeOfAppoint" />
+      <reference referencedUin="vbnet:e_method:src:ProjectManagement:HsinYi.EIP.ProjectManagement.BusinessLogicLayer.PMAppoint.GetAppointments(System.Int32,System.DateTime,HsinYi.EIP.ProjectManagement.BusinessLogicLayer.PMAppoint.TimeOfAppoint)" />
+    </reference>
+    <reference referencedUin="vbnet:e_class:src:ProjectManagement:HsinYi.EIP.ProjectManagement.BusinessLogicLayer.PMEventsCollection">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+    <reference referencedUin="vbnet:e_class:src:ProjectManagement:HsinYi.EIP.ProjectManagement.BusinessLogicLayer.CustomPrincipal">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+    <reference referencedUin="vbnet:e_class:src:ProjectManagement:HsinYi.EIP.ProjectManagement.BusinessLogicLayer.DirectoryHelper">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+    <reference referencedUin="vbnet:e_class:src:ProjectManagement:HsinYi.EIP.ProjectManagement.BusinessLogicLayer.PMAppointCollection">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+    <reference referencedUin="vbnet:e_class:src:ProjectManagement:HsinYi.EIP.ProjectManagement.BusinessLogicLayer.PMAppointType">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+    <reference referencedUin="vbnet:e_class:src:ProjectManagement:HsinYi.EIP.ProjectManagement.BusinessLogicLayer.PMAppointTypeCollection">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+    <reference referencedUin="vbnet:e_class:src:ProjectManagement:HsinYi.EIP.ProjectManagement.BusinessLogicLayer.PMAttachment">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+    <reference referencedUin="vbnet:e_class:src:ProjectManagement:HsinYi.EIP.ProjectManagement.BusinessLogicLayer.PMAttachmentCollection">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+    <reference referencedUin="vbnet:e_class:src:ProjectManagement:HsinYi.EIP.ProjectManagement.BusinessLogicLayer.PMDocCategories">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+    <reference referencedUin="vbnet:e_class:src:ProjectManagement:HsinYi.EIP.ProjectManagement.BusinessLogicLayer.PMDocCategoriesCollection">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+    <reference referencedUin="vbnet:e_class:src:ProjectManagement:HsinYi.EIP.ProjectManagement.BusinessLogicLayer.PMDocuments">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+    <reference referencedUin="vbnet:e_class:src:ProjectManagement:HsinYi.EIP.ProjectManagement.BusinessLogicLayer.PMDocumentsCollection">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+    <reference referencedUin="vbnet:e_class:src:ProjectManagement:HsinYi.EIP.ProjectManagement.BusinessLogicLayer.PMEvent">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+    <reference referencedUin="vbnet:e_class:src:ProjectManagement:HsinYi.EIP.ProjectManagement.BusinessLogicLayer.PMForumTopic">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+    <reference referencedUin="vbnet:e_class:src:ProjectManagement:HsinYi.EIP.ProjectManagement.BusinessLogicLayer.PMForumTopicCollection">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+    <reference referencedUin="vbnet:e_class:src:ProjectManagement:HsinYi.EIP.ProjectManagement.BusinessLogicLayer.PMGroup">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+    <reference referencedUin="vbnet:e_class:src:ProjectManagement:HsinYi.EIP.ProjectManagement.BusinessLogicLayer.GroupsCollection">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+    <reference referencedUin="vbnet:e_class:src:ProjectManagement:HsinYi.EIP.ProjectManagement.BusinessLogicLayer.PMSecurity">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+    <reference referencedUin="vbnet:e_class:src:ProjectManagement:HsinYi.EIP.ProjectManagement.BusinessLogicLayer.PMSendMail">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+    <reference referencedUin="vbnet:e_class:src:ProjectManagement:HsinYi.EIP.ProjectManagement.BusinessLogicLayer.PMUser">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="vbnet:e_field:src:ProjectManagement:HsinYi.EIP.ProjectManagement.BusinessLogicLayer.PMUser._Name" />
+    </reference>
+    <reference referencedUin="vbnet:e_class:src:ProjectManagement:HsinYi.EIP.ProjectManagement.BusinessLogicLayer.UsersCollection">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+    <reference referencedUin="vbnet:e_class:src:ProjectManagement:HsinYi.EIP.ProjectManagement.BusinessLogicLayer.Project">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+    <reference referencedUin="vbnet:e_class:src:ProjectManagement:HsinYi.EIP.ProjectManagement.BusinessLogicLayer.ProjectsCollection">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+    <reference referencedUin="vbnet:e_class:src:ProjectManagement:HsinYi.EIP.ProjectManagement.BusinessLogicLayer.ProjectState">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+    <reference referencedUin="vbnet:e_class:src:ProjectManagement:HsinYi.EIP.ProjectManagement.BusinessLogicLayer.ProjectType">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+    <reference referencedUin="vbnet:e_class:src:ProjectManagement:HsinYi.EIP.ProjectManagement.BusinessLogicLayer.Roles">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+    <reference referencedUin="vbnet:e_class:src:ProjectManagement:HsinYi.EIP.ProjectManagement.BusinessLogicLayer.RolesCollection">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+    <reference referencedUin="vbnet:e_class:src:ProjectManagement:HsinYi.EIP.ProjectManagement.BusinessLogicLayer.TabItem">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+    <reference referencedUin="vbnet:e_class:src:ProjectManagement:HsinYi.EIP.ProjectManagement.BusinessLogicLayer.ProjectModify">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+  </view>
+</nodeSet>

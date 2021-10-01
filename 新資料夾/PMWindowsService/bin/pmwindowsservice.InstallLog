@@ -1,0 +1,11 @@
+﻿正在安裝組件 'c:\web\code\app\outerapp\projectmanagement\pmwindowsservice\bin\pmwindowsservice.exe'。
+受影響的參數為:
+   assemblypath = c:\web\code\app\outerapp\projectmanagement\pmwindowsservice\bin\pmwindowsservice.exe
+   logfile = c:\web\code\app\outerapp\projectmanagement\pmwindowsservice\bin\pmwindowsservice.InstallLog
+正在安裝服務 HsinYi Project Management Service...
+已經成功安裝服務 HsinYi Project Management Service。
+正在記錄檔 Application 中建立 EventLog 來源 HsinYi Project Management Service...
+正在認可組件 'c:\web\code\app\outerapp\projectmanagement\pmwindowsservice\bin\pmwindowsservice.exe'。
+受影響的參數為:
+   assemblypath = c:\web\code\app\outerapp\projectmanagement\pmwindowsservice\bin\pmwindowsservice.exe
+   logfile = c:\web\code\app\outerapp\projectmanagement\pmwindowsservice\bin\pmwindowsservice.InstallLog

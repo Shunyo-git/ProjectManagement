@@ -1,0 +1,34 @@
+<%@ Control Language="vb" AutoEventWireup="false" Codebehind="myForumTopic.ascx.vb" Inherits="HsinYi.EIP.ProjectManagement.Web.myForumTopic" TargetSchema="http://schemas.microsoft.com/intellisense/ie5" %>
+<asp:datagrid id="dgList" AllowPaging="True" BorderColor="White" AllowSorting="True" AutoGenerateColumns="False"
+	CellPadding="2" Width="100%" BorderStyle="None" runat="server" PageSize="5">
+	<HeaderStyle Font-Bold="True" CssClass="grid-header"></HeaderStyle>
+	<Columns>
+		<asp:TemplateColumn SortExpression="Subject" HeaderText="最新討論話題">
+			<HeaderStyle HorizontalAlign="Left" Width="50%" CssClass="grid-header" VerticalAlign="Middle"></HeaderStyle>
+			<ItemStyle CssClass="grid-first-item"></ItemStyle>
+			<ItemTemplate>
+				<a title="Event Detail" class="blacklineheight" href='../ForumTopicDetail.aspx?TopicID=<%#DataBinder.Eval(Container.DataItem, "TopicID")%>&ProjectID=<%#DataBinder.Eval(Container.DataItem, "ProjectID")%>&index=-1&projectIndex=6'>
+					<asp:label ID="Label2" Text='<%# DataBinder.Eval(Container, "DataItem.Subject") %>' Runat="server" Visible="true" />
+				</a>
+			</ItemTemplate>
+		</asp:TemplateColumn>
+		<asp:TemplateColumn HeaderText="所屬專案">
+			<HeaderStyle HorizontalAlign="Left" Width="30%" CssClass="grid-header" VerticalAlign="Middle"></HeaderStyle>
+			<ItemStyle CssClass="grid-item"></ItemStyle>
+			<ItemTemplate>
+				<asp:label ID="Label3" Text='<%# getProjectName(DataBinder.Eval(Container, "DataItem.ProjectID"))  %>' Runat="server" Visible="true" />
+			</ItemTemplate>
+		</asp:TemplateColumn>
+		<asp:TemplateColumn SortExpression="LastPostDate" HeaderText="最新回應">
+			<HeaderStyle HorizontalAlign="Right" Width="20%" CssClass="grid-header" VerticalAlign="Middle"></HeaderStyle>
+			<ItemStyle Wrap="False" HorizontalAlign="Right" CssClass="grid-last-item"></ItemStyle>
+			<ItemTemplate>
+				<%# DataBinder.Eval(Container, "DataItem.LastPostDate") %>
+				<br>
+				By
+				<%# EIPSysSecurity.clsUser.getUserName( DataBinder.Eval(Container, "DataItem.LastPostUserID") )%>
+			</ItemTemplate>
+		</asp:TemplateColumn>
+	</Columns>
+	<PagerStyle HorizontalAlign="Right"></PagerStyle>
+</asp:datagrid>

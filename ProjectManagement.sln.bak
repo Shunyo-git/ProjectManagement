@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "ProjectManagement", "http://eip/APP/OuterAPP/ProjectManagement/ProjectManagement.vbproj", "{E06E667C-EEAF-463D-A4F3-2EC37186A6D5}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "ProjectAgentService", "AlertMessanger\ProjectAgentService.vbproj", "{525B3E99-648C-4FAF-B774-4F1D691CAF14}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{E06E667C-EEAF-463D-A4F3-2EC37186A6D5}.Debug.ActiveCfg = Debug|.NET
+		{E06E667C-EEAF-463D-A4F3-2EC37186A6D5}.Debug.Build.0 = Debug|.NET
+		{E06E667C-EEAF-463D-A4F3-2EC37186A6D5}.Release.ActiveCfg = Release|.NET
+		{E06E667C-EEAF-463D-A4F3-2EC37186A6D5}.Release.Build.0 = Release|.NET
+		{525B3E99-648C-4FAF-B774-4F1D691CAF14}.Debug.ActiveCfg = Debug|.NET
+		{525B3E99-648C-4FAF-B774-4F1D691CAF14}.Debug.Build.0 = Debug|.NET
+		{525B3E99-648C-4FAF-B774-4F1D691CAF14}.Release.ActiveCfg = Release|.NET
+		{525B3E99-648C-4FAF-B774-4F1D691CAF14}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

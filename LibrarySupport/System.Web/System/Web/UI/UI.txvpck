@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet>
+  <view uin="xo5ldob495jru6m_v">
+    <property name="$name" value="UI" />
+    <property name="$defaultDiagram" value="True" />
+    <property name="$metaclass" value="Package Diagram" />
+    <reference referencedUin="msil:e_class:lib:System.Web:System.Web.UI.Page">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+    <reference referencedUin="design:view:::lj49xwq090i450h_v">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="msil:e_class:lib:System.Web:System.Web.UI.HtmlControls.HtmlForm" />
+      <reference referencedUin="msil:e_class:lib:System.Web:System.Web.UI.HtmlControls.HtmlInputFile" />
+    </reference>
+    <reference referencedUin="msil:e_class:lib:System.Web:System.Web.UI.UserControl">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+    <reference referencedUin="design:view:::812c4e1diry85ui_v">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="msil:e_class:lib:System.Web:System.Web.UI.WebControls.DataList" />
+      <reference referencedUin="msil:e_class:lib:System.Web:System.Web.UI.WebControls.Label" />
+      <reference referencedUin="msil:e_class:lib:System.Web:System.Web.UI.WebControls.DataGrid" />
+      <reference referencedUin="msil:e_class:lib:System.Web:System.Web.UI.WebControls.LinkButton" />
+      <reference referencedUin="msil:e_class:lib:System.Web:System.Web.UI.WebControls.Panel" />
+      <reference referencedUin="msil:e_class:lib:System.Web:System.Web.UI.WebControls.CheckBox" />
+      <reference referencedUin="msil:e_class:lib:System.Web:System.Web.UI.WebControls.Button" />
+      <reference referencedUin="msil:e_class:lib:System.Web:System.Web.UI.WebControls.TextBox" />
+      <reference referencedUin="msil:e_class:lib:System.Web:System.Web.UI.WebControls.RequiredFieldValidator" />
+      <reference referencedUin="msil:e_class:lib:System.Web:System.Web.UI.WebControls.DropDownList" />
+      <reference referencedUin="msil:e_class:lib:System.Web:System.Web.UI.WebControls.HyperLink" />
+    </reference>
+  </view>
+</nodeSet>

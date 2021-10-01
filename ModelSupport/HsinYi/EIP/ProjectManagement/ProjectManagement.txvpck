@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet>
+  <view uin="edfbrof7o6xzx4f_v">
+    <property name="$name" value="ProjectManagement" />
+    <property name="$defaultDiagram" value="True" />
+    <property name="$metaclass" value="Package Diagram" />
+    <reference referencedUin="design:view:::pe19j41hoz2dtfj_v">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="vbnet:e_class:src:ProjectManagement:HsinYi.EIP.ProjectManagement.BusinessLogicLayer.PMAppoint" />
+      <reference referencedUin="vbnet:e_class:src:ProjectManagement:HsinYi.EIP.ProjectManagement.BusinessLogicLayer.PMEventsCollection" />
+      <reference referencedUin="vbnet:e_class:src:ProjectManagement:HsinYi.EIP.ProjectManagement.BusinessLogicLayer.CustomPrincipal" />
+      <reference referencedUin="vbnet:e_class:src:ProjectManagement:HsinYi.EIP.ProjectManagement.BusinessLogicLayer.DirectoryHelper" />
+      <reference referencedUin="vbnet:e_class:src:ProjectManagement:HsinYi.EIP.ProjectManagement.BusinessLogicLayer.PMAppointCollection" />
+      <reference referencedUin="vbnet:e_class:src:ProjectManagement:HsinYi.EIP.ProjectManagement.BusinessLogicLayer.PMAppointType" />
+      <reference referencedUin="vbnet:e_class:src:ProjectManagement:HsinYi.EIP.ProjectManagement.BusinessLogicLayer.PMAppointTypeCollection" />
+      <reference referencedUin="vbnet:e_class:src:ProjectManagement:HsinYi.EIP.ProjectManagement.BusinessLogicLayer.PMAttachment" />
+      <reference referencedUin="vbnet:e_class:src:ProjectManagement:HsinYi.EIP.ProjectManagement.BusinessLogicLayer.PMAttachmentCollection" />
+      <reference referencedUin="vbnet:e_class:src:ProjectManagement:HsinYi.EIP.ProjectManagement.BusinessLogicLayer.PMDocCategories" />
+      <reference referencedUin="vbnet:e_class:src:ProjectManagement:HsinYi.EIP.ProjectManagement.BusinessLogicLayer.PMDocCategoriesCollection" />
+      <reference referencedUin="vbnet:e_class:src:ProjectManagement:HsinYi.EIP.ProjectManagement.BusinessLogicLayer.PMDocuments" />
+      <reference referencedUin="vbnet:e_class:src:ProjectManagement:HsinYi.EIP.ProjectManagement.BusinessLogicLayer.PMDocumentsCollection" />
+      <reference referencedUin="vbnet:e_class:src:ProjectManagement:HsinYi.EIP.ProjectManagement.BusinessLogicLayer.PMEvent" />
+      <reference referencedUin="vbnet:e_class:src:ProjectManagement:HsinYi.EIP.ProjectManagement.BusinessLogicLayer.PMForumTopic" />
+      <reference referencedUin="vbnet:e_class:src:ProjectManagement:HsinYi.EIP.ProjectManagement.BusinessLogicLayer.PMForumTopicCollection" />
+      <reference referencedUin="vbnet:e_class:src:ProjectManagement:HsinYi.EIP.ProjectManagement.BusinessLogicLayer.PMGroup" />
+      <reference referencedUin="vbnet:e_class:src:ProjectManagement:HsinYi.EIP.ProjectManagement.BusinessLogicLayer.GroupsCollection" />
+      <reference referencedUin="vbnet:e_class:src:ProjectManagement:HsinYi.EIP.ProjectManagement.BusinessLogicLayer.PMSecurity" />
+      <reference referencedUin="vbnet:e_class:src:ProjectManagement:HsinYi.EIP.ProjectManagement.BusinessLogicLayer.PMSendMail" />
+      <reference referencedUin="vbnet:e_class:src:ProjectManagement:HsinYi.EIP.ProjectManagement.BusinessLogicLayer.PMUser" />
+      <reference referencedUin="vbnet:e_class:src:ProjectManagement:HsinYi.EIP.ProjectManagement.BusinessLogicLayer.UsersCollection" />
+      <reference referencedUin="vbnet:e_class:src:ProjectManagement:HsinYi.EIP.ProjectManagement.BusinessLogicLayer.Project" />
+      <reference referencedUin="vbnet:e_class:src:ProjectManagement:HsinYi.EIP.ProjectManagement.BusinessLogicLayer.ProjectsCollection" />
+      <reference referencedUin="vbnet:e_class:src:ProjectManagement:HsinYi.EIP.ProjectManagement.BusinessLogicLayer.ProjectState" />
+      <reference referencedUin="vbnet:e_class:src:ProjectManagement:HsinYi.EIP.ProjectManagement.BusinessLogicLayer.ProjectType" />
+      <reference referencedUin="vbnet:e_class:src:ProjectManagement:HsinYi.EIP.ProjectManagement.BusinessLogicLayer.Roles" />
+      <reference referencedUin="vbnet:e_class:src:ProjectManagement:HsinYi.EIP.ProjectManagement.BusinessLogicLayer.RolesCollection" />
+      <reference referencedUin="vbnet:e_class:src:ProjectManagement:HsinYi.EIP.ProjectManagement.BusinessLogicLayer.TabItem" />
+      <reference referencedUin="vbnet:e_class:src:ProjectManagement:HsinYi.EIP.ProjectManagement.BusinessLogicLayer.ProjectModify" />
+    </reference>
+    <reference referencedUin="design:view:::a9eht1h2enfjxk_v">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+    <reference referencedUin="design:view:::wsfzh05d2cv4ef_v">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+  </view>
+</nodeSet>

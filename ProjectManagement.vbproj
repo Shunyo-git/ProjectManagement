@@ -1,0 +1,1044 @@
+<VisualStudioProject>
+    <VisualBasic
+        ProjectType = "Web"
+        ProductVersion = "7.10.3077"
+        SchemaVersion = "2.0"
+        ProjectGuid = "{E06E667C-EEAF-463D-A4F3-2EC37186A6D5}"
+    >
+        <Build>
+            <Settings
+                ApplicationIcon = ""
+                AssemblyKeyContainerName = ""
+                AssemblyName = "ProjectManagement"
+                AssemblyOriginatorKeyFile = ""
+                AssemblyOriginatorKeyMode = "None"
+                DefaultClientScript = "JScript"
+                DefaultHTMLPageLayout = "Grid"
+                DefaultTargetSchema = "IE50"
+                DelaySign = "false"
+                OutputType = "Library"
+                OptionCompare = "Binary"
+                OptionExplicit = "On"
+                OptionStrict = "Off"
+                RootNamespace = ""
+                StartupObject = ""
+            >
+                <Config
+                    Name = "Debug"
+                    BaseAddress = "285212672"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = ""
+                    DefineDebug = "true"
+                    DefineTrace = "true"
+                    DebugSymbols = "true"
+                    IncrementalBuild = "true"
+                    Optimize = "false"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "1"
+                />
+                <Config
+                    Name = "Release"
+                    BaseAddress = "285212672"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = ""
+                    DefineDebug = "false"
+                    DefineTrace = "true"
+                    DebugSymbols = "false"
+                    IncrementalBuild = "false"
+                    Optimize = "true"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "1"
+                />
+            </Settings>
+            <References>
+                <Reference
+                    Name = "System"
+                    AssemblyName = "System"
+                />
+                <Reference
+                    Name = "System.Data"
+                    AssemblyName = "System.Data"
+                />
+                <Reference
+                    Name = "System.Drawing"
+                    AssemblyName = "System.Drawing"
+                />
+                <Reference
+                    Name = "System.Web"
+                    AssemblyName = "System.Web"
+                />
+                <Reference
+                    Name = "System.XML"
+                    AssemblyName = "System.Xml"
+                />
+                <Reference
+                    Name = "EIPSysSecurity"
+                    AssemblyName = "EIPSysSecurity"
+                    HintPath = "D:\Sean Documents\Visual Studio Projects\EIP Projects\EIPSysSecurity\bin\EIPSysSecurity.dll"
+                />
+                <Reference
+                    Name = "system.directoryservices"
+                    AssemblyName = "System.DirectoryServices"
+                    HintPath = "C:\WINDOWS\Microsoft.NET\Framework\v1.1.4322\system.directoryservices.dll"
+                />
+                <Reference
+                    Name = "System.Design"
+                    AssemblyName = "System.Design"
+                    HintPath = "C:\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.Design.dll"
+                />
+                <Reference
+                    Name = "datepicker"
+                    AssemblyName = "DatePicker"
+                    HintPath = "d:\sean documents\visual studio projects\program library\usercontrol\datepicker\datepicker.dll"
+                />
+                <Reference
+                    Name = "HsinYiMemberPicker"
+                    AssemblyName = "HsinYiMemberPicker"
+                    HintPath = "D:\Sean Documents\Visual Studio Projects\EIP Projects\HsinYiMemberPicker\bin\HsinYiMemberPicker.dll"
+                />
+                <Reference
+                    Name = "VBIDE"
+                    Guid = "{0002E157-0000-0000-C000-000000000046}"
+                    VersionMajor = "5"
+                    VersionMinor = "3"
+                    Lcid = "0"
+                    WrapperTool = "primary"
+                />
+                <Reference
+                    Name = "Excel"
+                    Guid = "{00020813-0000-0000-C000-000000000046}"
+                    VersionMajor = "1"
+                    VersionMinor = "5"
+                    Lcid = "0"
+                    WrapperTool = "primary"
+                />
+            </References>
+            <Imports>
+                <Import Namespace = "Microsoft.VisualBasic" />
+                <Import Namespace = "System" />
+                <Import Namespace = "System.Collections" />
+                <Import Namespace = "System.Configuration" />
+                <Import Namespace = "System.Data" />
+                <Import Namespace = "System.Drawing" />
+                <Import Namespace = "System.Web" />
+                <Import Namespace = "System.Web.UI" />
+                <Import Namespace = "System.Web.UI.HtmlControls" />
+                <Import Namespace = "System.Web.UI.WebControls" />
+            </Imports>
+        </Build>
+        <Files>
+            <Include>
+                <File
+                    RelPath = "AlertMessage.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "AlertMessage.aspx.vb"
+                    DependentUpon = "AlertMessage.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "AlertMessage.aspx.resx"
+                    DependentUpon = "AlertMessage.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "AssemblyInfo.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Attachment.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Attachment.aspx.vb"
+                    DependentUpon = "Attachment.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Attachment.aspx.resx"
+                    DependentUpon = "Attachment.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "CalendarDetail.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CalendarDetail.aspx.vb"
+                    DependentUpon = "CalendarDetail.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "CalendarDetail.aspx.resx"
+                    DependentUpon = "CalendarDetail.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "CalendarModify.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CalendarModify.aspx.vb"
+                    DependentUpon = "CalendarModify.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "CalendarModify.aspx.resx"
+                    DependentUpon = "CalendarModify.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "chkLogin.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "chkLogin.aspx.vb"
+                    DependentUpon = "chkLogin.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "chkLogin.aspx.resx"
+                    DependentUpon = "chkLogin.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "DocumentDetail.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "DocumentDetail.aspx.vb"
+                    DependentUpon = "DocumentDetail.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "DocumentDetail.aspx.resx"
+                    DependentUpon = "DocumentDetail.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "DocumentModify.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "DocumentModify.aspx.vb"
+                    DependentUpon = "DocumentModify.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "DocumentModify.aspx.resx"
+                    DependentUpon = "DocumentModify.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "EventDetail.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "EventDetail.aspx.vb"
+                    DependentUpon = "EventDetail.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "EventDetail.aspx.resx"
+                    DependentUpon = "EventDetail.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "EventModify.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "EventModify.aspx.vb"
+                    DependentUpon = "EventModify.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "EventModify.aspx.resx"
+                    DependentUpon = "EventModify.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "ForumTopicDetail.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "ForumTopicDetail.aspx.vb"
+                    DependentUpon = "ForumTopicDetail.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ForumTopicDetail.aspx.resx"
+                    DependentUpon = "ForumTopicDetail.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "ForumTopicModify.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "ForumTopicModify.aspx.vb"
+                    DependentUpon = "ForumTopicModify.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ForumTopicModify.aspx.resx"
+                    DependentUpon = "ForumTopicModify.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "getAttachment.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "getAttachment.aspx.vb"
+                    DependentUpon = "getAttachment.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "getAttachment.aspx.resx"
+                    DependentUpon = "getAttachment.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Global.asax"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Global.asax.vb"
+                    DependentUpon = "Global.asax"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Global.asax.resx"
+                    DependentUpon = "Global.asax.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "GroupDetail.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "GroupDetail.aspx.vb"
+                    DependentUpon = "GroupDetail.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "GroupDetail.aspx.resx"
+                    DependentUpon = "GroupDetail.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "GroupModify.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "GroupModify.aspx.vb"
+                    DependentUpon = "GroupModify.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "GroupModify.aspx.resx"
+                    DependentUpon = "GroupModify.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "index.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "index.aspx.vb"
+                    DependentUpon = "index.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "index.aspx.resx"
+                    DependentUpon = "index.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "NewDocument.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "NewDocument.aspx.vb"
+                    DependentUpon = "NewDocument.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "NewDocument.aspx.resx"
+                    DependentUpon = "NewDocument.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "NewTopic.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "NewTopic.aspx.vb"
+                    DependentUpon = "NewTopic.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "NewTopic.aspx.resx"
+                    DependentUpon = "NewTopic.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "ProjectCalendar.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "ProjectCalendar.aspx.vb"
+                    DependentUpon = "ProjectCalendar.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ProjectCalendar.aspx.resx"
+                    DependentUpon = "ProjectCalendar.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "ProjectContact.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "ProjectContact.aspx.vb"
+                    DependentUpon = "ProjectContact.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ProjectContact.aspx.resx"
+                    DependentUpon = "ProjectContact.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "ProjectDetails.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "ProjectDetails.aspx.vb"
+                    DependentUpon = "ProjectDetails.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ProjectDetails.aspx.resx"
+                    DependentUpon = "ProjectDetails.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "ProjectDocument.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "ProjectDocument.aspx.vb"
+                    DependentUpon = "ProjectDocument.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ProjectDocument.aspx.resx"
+                    DependentUpon = "ProjectDocument.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "ProjectEvent.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "ProjectEvent.aspx.vb"
+                    DependentUpon = "ProjectEvent.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ProjectEvent.aspx.resx"
+                    DependentUpon = "ProjectEvent.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "ProjectForum.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "ProjectForum.aspx.vb"
+                    DependentUpon = "ProjectForum.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ProjectForum.aspx.resx"
+                    DependentUpon = "ProjectForum.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "ProjectGroup.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "ProjectGroup.aspx.vb"
+                    DependentUpon = "ProjectGroup.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ProjectGroup.aspx.resx"
+                    DependentUpon = "ProjectGroup.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "ProjectList.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "ProjectList.aspx.vb"
+                    DependentUpon = "ProjectList.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ProjectList.aspx.resx"
+                    DependentUpon = "ProjectList.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "ProjectModify.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "ProjectModify.aspx.vb"
+                    DependentUpon = "ProjectModify.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ProjectModify.aspx.resx"
+                    DependentUpon = "ProjectModify.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "ProjectNew.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "ProjectNew.aspx.vb"
+                    DependentUpon = "ProjectNew.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ProjectNew.aspx.resx"
+                    DependentUpon = "ProjectNew.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "ProjectSecurity.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "ProjectSecurity.aspx.vb"
+                    DependentUpon = "ProjectSecurity.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ProjectSecurity.aspx.resx"
+                    DependentUpon = "ProjectSecurity.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "ProjectUser.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "ProjectUser.aspx.vb"
+                    DependentUpon = "ProjectUser.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ProjectUser.aspx.resx"
+                    DependentUpon = "ProjectUser.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "ShowUserTree.asp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "UserDetail.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "UserDetail.aspx.vb"
+                    DependentUpon = "UserDetail.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "UserDetail.aspx.resx"
+                    DependentUpon = "UserDetail.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "UserModify.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "UserModify.aspx.vb"
+                    DependentUpon = "UserModify.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "UserModify.aspx.resx"
+                    DependentUpon = "UserModify.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Web.config"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "WebForm1.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "WebForm1.aspx.vb"
+                    DependentUpon = "WebForm1.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "WebForm1.aspx.resx"
+                    DependentUpon = "WebForm1.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "class\BLL\ClientScript.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "class\BLL\CustomPrincipal.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "class\BLL\DirectoryHelper.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "class\BLL\ModuleBase.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "class\BLL\PMAppoint.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "class\BLL\PMAppointCollection.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "class\BLL\PMAppointType.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "class\BLL\PMAppointTypeCollection.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "class\BLL\PMAttachment.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "class\BLL\PMAttachmentCollection.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "class\BLL\PMDocCategories.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "class\BLL\PMDocCategoriesCollection.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "class\BLL\PMDocuments.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "class\BLL\PMDocumentsCollection.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "class\BLL\PMEvent.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "class\BLL\PMEventsCollection.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "class\BLL\PMForumTopic.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "class\BLL\PMForumTopicCollection.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "class\BLL\PMGroup.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "class\BLL\PMGroupsCollection.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "class\BLL\PMSecurity.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "class\BLL\PMSendMail.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "class\BLL\PMUser.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "class\BLL\PMUsersCollection.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "class\BLL\Project.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "class\BLL\ProjectsCollection.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "class\BLL\ProjectState.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "class\BLL\ProjectType.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "class\BLL\Roles.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "class\BLL\RolesCollection.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "class\DAL\SQLHelper.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "class\DAL\TabItem.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "class\WEB\ServerScriptHelper.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "css\Styles.css"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "datePicker\close.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "datePicker\DatePicker.dll"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "datePicker\datepicker.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "datePicker\divider.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "datePicker\drop1.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "datePicker\drop2.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "datePicker\left1.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "datePicker\left2.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "datePicker\right1.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "datePicker\right2.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\btn_edit.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\download.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\icon_cycle.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\icon01.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\l_ba_bottom.GIF"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\monthleft.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\monthright.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\s_bar_bottom.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\spacer.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "inc\DocCategoriesTabs.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "inc\DocCategoriesTabs.ascx.vb"
+                    DependentUpon = "DocCategoriesTabs.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "inc\DocCategoriesTabs.ascx.resx"
+                    DependentUpon = "DocCategoriesTabs.ascx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "inc\mainTitleTabs.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "inc\mainTitleTabs.ascx.vb"
+                    DependentUpon = "mainTitleTabs.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "inc\mainTitleTabs.ascx.resx"
+                    DependentUpon = "mainTitleTabs.ascx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "inc\myCalendar.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "inc\myCalendar.ascx.vb"
+                    DependentUpon = "myCalendar.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "inc\myCalendar.ascx.resx"
+                    DependentUpon = "myCalendar.ascx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "inc\myDocuments.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "inc\myDocuments.ascx.vb"
+                    DependentUpon = "myDocuments.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "inc\myDocuments.ascx.resx"
+                    DependentUpon = "myDocuments.ascx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "inc\myForumTopic.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "inc\myForumTopic.ascx.vb"
+                    DependentUpon = "myForumTopic.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "inc\myForumTopic.ascx.resx"
+                    DependentUpon = "myForumTopic.ascx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "inc\myProjectList.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "inc\myProjectList.ascx.vb"
+                    DependentUpon = "myProjectList.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "inc\myProjectList.ascx.resx"
+                    DependentUpon = "myProjectList.ascx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "inc\projectTabs.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "inc\projectTabs.ascx.vb"
+                    DependentUpon = "projectTabs.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "inc\projectTabs.ascx.resx"
+                    DependentUpon = "projectTabs.ascx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "ModelSupport\default.txvpck"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "ModelSupport\HsinYi\HsinYi.txvpck"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "ModelSupport\HsinYi\EIP\EIP.txvpck"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "ModelSupport\HsinYi\EIP\Namespace1\Namespace1.txvpck"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "ModelSupport\HsinYi\EIP\ProjectManagement\ProjectManagement.txvpck"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "ModelSupport\HsinYi\EIP\ProjectManagement\BusinessLogicLayer\BusinessLogicLayer.txvpck"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "ModelSupport\HsinYi\EIP\ProjectManagement\DataAccessLayer\DataAccessLayer.txvpck"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "ModelSupport\HsinYi\EIP\ProjectManagement\Web\Web.txvpck"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "ModelSupport\iX\iX.txvpck"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "ModelSupport\ProjectManagement\ProjectManagement.txvpck"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "script\Global.js"
+                    BuildAction = "Content"
+                />
+            </Include>
+        </Files>
+    </VisualBasic>
+</VisualStudioProject>
+

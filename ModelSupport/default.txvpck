@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet>
+  <view uin="33gjsv9yn_v">
+    <property name="$name" value="default" />
+    <property name="$defaultDiagram" value="True" />
+    <property name="$metaclass" value="Package Diagram" />
+    <reference referencedUin="vbnet:e_class:src:ProjectManagement:ProjectSecurity">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+    <reference referencedUin="design:view:::n0gsc3ztt_v">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+    <reference referencedUin="design:view:::b0ggvfjfg_v">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="design:view:::w4gmihbwn6avdhi_v" />
+    </reference>
+    <reference referencedUin="design:view:::50g3la4rs_v">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+    <reference referencedUin="vbnet:e_class:src:ProjectManagement:AlertMessage">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+    <reference referencedUin="vbnet:e_class:src:ProjectManagement:chkLogin">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+    <reference referencedUin="vbnet:e_class:src:ProjectManagement:ServerScriptHelper">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+    <reference referencedUin="vbnet:e_class:src:ProjectManagement:NewDocument">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+    <reference referencedUin="vbnet:e_class:src:ProjectManagement:NewTopic">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+    <reference referencedUin="vbnet:e_class:src:ProjectManagement:ProjectContact">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+    <reference referencedUin="vbnet:e_class:src:ProjectManagement:ProjectNew">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+    <reference referencedUin="vbnet:e_class:src:ProjectManagement:ModuleBase">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+  </view>
+</nodeSet>

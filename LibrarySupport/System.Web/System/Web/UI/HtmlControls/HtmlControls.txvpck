@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet>
+  <view uin="lj49xwq090i450h_v">
+    <property name="$name" value="HtmlControls" />
+    <property name="$defaultDiagram" value="True" />
+    <property name="$metaclass" value="Package Diagram" />
+    <reference referencedUin="msil:e_class:lib:System.Web:System.Web.UI.HtmlControls.HtmlForm">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+    <reference referencedUin="msil:e_class:lib:System.Web:System.Web.UI.HtmlControls.HtmlInputFile">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+  </view>
+</nodeSet>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet>
+  <view uin="4p5dqa9y8bivy3l_v">
+    <property name="$name" value="Web" />
+    <property name="$defaultDiagram" value="True" />
+    <property name="$metaclass" value="Package Diagram" />
+    <reference referencedUin="design:view:::xo5ldob495jru6m_v">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="msil:e_class:lib:System.Web:System.Web.UI.Page" />
+      <reference referencedUin="design:view:::lj49xwq090i450h_v" />
+      <reference referencedUin="msil:e_class:lib:System.Web:System.Web.UI.UserControl" />
+      <reference referencedUin="design:view:::812c4e1diry85ui_v" />
+    </reference>
+    <reference referencedUin="msil:e_class:lib:System.Web:System.Web.HttpApplication">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+  </view>
+</nodeSet>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet>
+  <view uin="812c4e1diry85ui_v">
+    <property name="$name" value="WebControls" />
+    <property name="$defaultDiagram" value="True" />
+    <property name="$metaclass" value="Package Diagram" />
+    <reference referencedUin="msil:e_class:lib:System.Web:System.Web.UI.WebControls.DataList">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+    <reference referencedUin="msil:e_class:lib:System.Web:System.Web.UI.WebControls.Label">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+    <reference referencedUin="msil:e_class:lib:System.Web:System.Web.UI.WebControls.DataGrid">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+    <reference referencedUin="msil:e_class:lib:System.Web:System.Web.UI.WebControls.LinkButton">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+    <reference referencedUin="msil:e_class:lib:System.Web:System.Web.UI.WebControls.Panel">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+    <reference referencedUin="msil:e_class:lib:System.Web:System.Web.UI.WebControls.CheckBox">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+    <reference referencedUin="msil:e_class:lib:System.Web:System.Web.UI.WebControls.Button">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+    <reference referencedUin="msil:e_class:lib:System.Web:System.Web.UI.WebControls.TextBox">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+    <reference referencedUin="msil:e_class:lib:System.Web:System.Web.UI.WebControls.RequiredFieldValidator">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+    <reference referencedUin="msil:e_class:lib:System.Web:System.Web.UI.WebControls.DropDownList">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+    <reference referencedUin="msil:e_class:lib:System.Web:System.Web.UI.WebControls.HyperLink">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+  </view>
+</nodeSet>
